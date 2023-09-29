@@ -39,3 +39,11 @@ th {
   background-color: #f2f2f2;
   text-align: center;
 }
+
+#authorizedPatient {
+  color: rgb(9, 207, 12);
+}
+
+#token {
+  color: rgb(255, 201, 5);
+}

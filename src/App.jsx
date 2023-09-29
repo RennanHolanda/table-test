@@ -32,7 +32,7 @@ const App = () => {
               <p><LuClipboardList/> EX2022012306689</p>
               <p><LiaPaperclipSolid/> Token justificado</p>
             </td>
-            <td>AUTORIZADO</td>
+            <td id='authorizedPatient'>AUTORIZADO</td>
             <td>24/07/2022-15:53</td>
             <td>24/07/2022-15:53</td>
         </tr>
@@ -46,11 +46,27 @@ const App = () => {
             <td><LuClipboardList/> 310017024</td>
             <td>
               <p><LuClipboardList/> EX2022012306142</p>
+              <p id='token'><LiaPaperclipSolid/> Token justificado</p>
+            </td>
+            <td id='authorizedPatient'>AUTORIZADO</td>
+            <td>24/07/2022-13:23</td>
+            <td>24/07/2022-13:23</td>
+        </tr>
+        <tr>
+            <td><CiStreamOn/></td>
+            <td>
+              <p><RxAvatar/> LUIZ FELIPE CARNEIRO LEAO</p>
+              <p><AiOutlineCreditCard/> 077953216</p>
+            </td>
+            <td>AMIL</td>
+            <td><LuClipboardList/> 310014887</td>
+            <td>
+              <p><LuClipboardList/> EX2022012305427</p>
               <p><LiaPaperclipSolid/> Token justificado</p>
             </td>
-            <td>AUTORIZADO</td>
-            <td>24/07/2022-13:23</td>
-            <td>24/07/2022-13:23</td>
+            <td id='authorizedPatient'>AUTORIZADO</td>
+            <td>24/07/2022-11:33</td>
+            <td>24/07/2022-13:33</td>
         </tr>
     </table>
     </div>
