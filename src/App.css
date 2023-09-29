@@ -1,5 +1,41 @@
 .container {
   margin: 20px;
   padding: 0 auto;
-  background-color:aquamarine;
+  background-color: #FFF;
+}
+
+.vertical-lines {
+  border-collapse: collapse;
+  width: 100%;
+  font-size: 15px;
+  font-family: 'Lobster', cursive;
+}
+
+th, td {
+  padding: 8px;
+  text-align: left;
+  position: relative;
+}
+
+tr {
+  position: relative;
+}
+
+tr:not(:last-child)::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: -4px; /* Altura da sombra */
+  height: 4px; /* Altura da sombra */
+  background: rgba(0, 0, 0, 0.1); /* Cor da sombra */
+}
+
+tr:hover {
+  background-color: #f5f5f5;
+}
+
+th {
+  background-color: #f2f2f2;
+  text-align: center;
 }

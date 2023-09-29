@@ -9,8 +9,7 @@ import { LiaPaperclipSolid } from "react-icons/lia";
 const App = () => {
   return (
     <div className='container'>
-       <h1>Exemplo de Tabela HTML</h1>
-    <table>
+       <table className='vertical-lines'>
         <tr>
             <th></th>
             <th>PACIENTE</th>
@@ -36,6 +35,22 @@ const App = () => {
             <td>AUTORIZADO</td>
             <td>24/07/2022-15:53</td>
             <td>24/07/2022-15:53</td>
+        </tr>
+        <tr>
+            <td><CiStreamOn/></td>
+            <td>
+              <p><RxAvatar/> HELIO AUGUSTO FONSECA MELO</p>
+              <p><AiOutlineCreditCard/> 073142059</p>
+            </td>
+            <td>AMIL</td>
+            <td><LuClipboardList/> 310017024</td>
+            <td>
+              <p><LuClipboardList/> EX2022012306142</p>
+              <p><LiaPaperclipSolid/> Token justificado</p>
+            </td>
+            <td>AUTORIZADO</td>
+            <td>24/07/2022-13:23</td>
+            <td>24/07/2022-13:23</td>
         </tr>
     </table>
     </div>
