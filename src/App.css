@@ -26,9 +26,9 @@ tr:not(:last-child)::after {
   position: absolute;
   left: 0;
   right: 0;
-  bottom: -4px; /* Altura da sombra */
-  height: 4px; /* Altura da sombra */
-  background: rgba(0, 0, 0, 0.1); /* Cor da sombra */
+  bottom: -4px; 
+  height: 4px; 
+  background: rgba(0, 0, 0, 0.1); 
 }
 
 tr:hover {
